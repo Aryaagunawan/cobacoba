@@ -1,0 +1,165 @@
+{
+  "intents": [
+    {
+      "tag": "info_umum_magang",
+      "patterns": [
+        "Apa itu program magang MBKM?",
+        "Saya ingin tahu tentang magang bersertifikat",
+        "Perbedaan magang dari kampus dan pemerintah apa?"
+      ],
+      "responses": [
+        "Program Magang MBKM adalah kegiatan magang yang dapat dikonversi menjadi SKS.",
+        "Ada dua jenis magang MBKM: flagship dari pemerintah dan mandiri dari kampus atau mitra.",
+        "Tujuannya adalah memberi pengalaman kerja nyata sebelum lulus kuliah."
+      ]
+    },
+    {
+      "tag": "syarat_magang",
+      "patterns": [
+        "Syarat ikut magang apa aja?",
+        "Kalau mau daftar magang harus semester berapa?",
+        "Apakah semua jurusan boleh ikut?"
+      ],
+      "responses": [
+        "Syarat umumnya: mahasiswa aktif minimal semester 5, IPK di atas 2.75.",
+        "Harus mengisi form pendaftaran dan melengkapi dokumen seperti CV dan transkrip.",
+        "Syarat tambahan bisa berbeda tergantung program magang yang dipilih."
+      ]
+    },
+    {
+      "tag": "pendaftaran_magang",
+      "patterns": [
+        "Gimana cara daftar magang MBKM?",
+        "Link pendaftaran magang di mana?",
+        "Apa saja tahapannya?"
+      ],
+      "responses": [
+        "Daftar magang flagship lewat https://kampusmerdeka.kemdikbud.go.id.",
+        "Untuk magang mandiri, ikuti info dari kampus atau admin MBKM Darmajaya.",
+        "Tahapannya biasanya: daftar → seleksi → wawancara → pengumuman."
+      ]
+    },
+    {
+      "tag": "info_umum_studi_independen",
+      "patterns": [
+        "Apa itu studi independen MBKM?",
+        "Saya tertarik ikut program bangkit, bisa dijelasin?",
+        "Studi independen dari kampus ada juga?"
+      ],
+      "responses": [
+        "Studi Independen adalah program belajar mandiri berbasis proyek intensif.",
+        "Bisa dilakukan melalui program flagship seperti Bangkit atau mitra kampus.",
+        "Output-nya berupa portofolio, sertifikasi, dan laporan akhir."
+      ]
+    },
+    {
+      "tag": "syarat_studi_independen",
+      "patterns": [
+        "Syarat ikut studi independen apa aja?",
+        "Gimana proses pendaftarannya?",
+        "Studi independen bisa dari jurusan apa aja?"
+      ],
+      "responses": [
+        "Minimal semester 5 dan IPK minimal 3.0 (tergantung mitra).",
+        "Harus melalui seleksi dari mitra dan mengisi formulir di platform.",
+        "Daftar di kampusmerdeka.kemdikbud.go.id → pilih program → upload dokumen."
+      ]
+    },
+    {
+      "tag": "konversi_sks",
+      "patterns": [
+        "Berapa SKS magang yang bisa dikonversi?",
+        "Studi independen dihitung berapa SKS?",
+        "Gimana proses konversi nilainya?"
+      ],
+      "responses": [
+        "Magang dan studi independen bisa dikonversi hingga 20 SKS.",
+        "Konversi dilakukan setelah mengisi form dan menyerahkan laporan kegiatan.",
+        "Nilai akan ditetapkan oleh Prodi dan disahkan lewat SK Rektor."
+      ]
+    },
+    {
+      "tag": "salam",
+      "patterns": [
+        "Halo!",
+        "Hai!",
+        "Selamat pagi!",
+        "Selamat sore!",
+        "Selamat malam!"
+      ],
+      "responses": [
+        "Halo! Ada yang bisa saya bantu?",
+        "Hai! Apa yang bisa saya bantu untuk Anda?",
+        "Selamat pagi! Ada yang bisa saya bantu?",
+        "Selamat sore! Ada yang perlu dibantu?",
+        "Selamat malam! Ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "penutupan",
+      "patterns": ["Terima kasih!", "Makasih ya!", "Thanks!", "Sampai jumpa!"],
+      "responses": [
+        "Terima kasih telah menghubungi kami. Semoga hari Anda menyenankan!",
+        "Makasih ya! Jangan ragu untuk tanya lagi ya!",
+        "Thanks for chatting with us! Have a great day!",
+        "Sampai jumpa! Semoga hari Anda menyenankan!"
+      ]
+    },
+    {
+      "tag": "typo_magang",
+      "patterns": [
+        "Apa itu mageng?",
+        "Maksudnya mageng apa?",
+        "Apa itu magang? Tapi salah ketik",
+        "Mageng itu apa?",
+        "Kenapa mageng diomongin?"
+      ],
+      "responses": [
+        "Sepertinya kamu maksud 'magang', kan? Magang MBKM adalah kegiatan magang yang dapat dikonversi menjadi SKS.",
+        "Oh, itu typo, maksud kamu 'magang', ya? Magang MBKM bisa memberi pengalaman kerja nyata sebelum lulus kuliah."
+      ]
+    },
+    {
+      "tag": "typo_studi_independen",
+      "patterns": [
+        "Apa itu studi independen?",
+        "Maksudnya studi independen, deh?",
+        "Studi independen itu apa sih?",
+        "Studi independen nya gimana?",
+        "Tanya tentang studi independen, tapi ketikannya salah"
+      ],
+      "responses": [
+        "Sepertinya maksud kamu studi independen, ya? Studi Independen adalah program belajar mandiri berbasis proyek intensif.",
+        "Typo deh, kamu maksud studi independen, kan? Itu adalah program belajar mandiri dengan output berupa portofolio, sertifikasi, dan laporan akhir."
+      ]
+    },
+    {
+      "tag": "typo_pendaftaran_magang",
+      "patterns": [
+        "Gimana cara daftar mageng?",
+        "Gimana cara daftar magang, kok salah ketik ya?",
+        "Mau daftar magang tapi ketikannya salah",
+        "Gimana sih cara daftar mageng?",
+        "Pendaftaran magang, tapi ketikannya error"
+      ],
+      "responses": [
+        "Mungkin kamu maksud daftar magang, ya? Daftar magang flagship lewat https://kampusmerdeka.kemdikbud.go.id.",
+        "Typo nih, coba daftar magang lewat link di https://kampusmerdeka.kemdikbud.go.id."
+      ]
+    },
+    {
+      "tag": "typo_konversi_sks",
+      "patterns": [
+        "Berapa SKS untuk mageng?",
+        "Konversi SKS mageng gimana?",
+        "Berapa SKS yang bisa di konversi untuk mageng?",
+        "Konversi SKS untuk studi independen, salah ketik deh",
+        "Berapa SKS bisa di konversi untuk studi indepedenten?"
+      ],
+      "responses": [
+        "Magang dan studi independen bisa dikonversi hingga 20 SKS.",
+        "Konversi dilakukan setelah mengisi form dan menyerahkan laporan kegiatan."
+      ]
+    }
+  ]
+}
